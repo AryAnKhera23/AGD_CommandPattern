@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface ICommand
 {
-    private void Execute(){}
+    public void Execute(){}
 }
